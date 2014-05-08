@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block title %}Ranked Stats{% endblock %}
+{% block body %}
+    <h1>Enter Ranked Stats URLs</h1>
+    <h2>Weighting is a ratio of month2:month1, so 2 is equal to weighting 2:1 (month 2 being twice as important as month1)</h2>
+    <form action="{{ url_for('index') }}" method="POST">
+        Month 1
+        <input type="text" name="url1">
+        Month 2
+        <input type="text" name="url2">
+        Weighting
+        <input type="text" name="weighting" value="2">
+        <input type="submit" name="my-form" value="Send">
+    </form>
+    <div class = "errors">
+        {{errors}}
+    </div>
+{% endblock %}
