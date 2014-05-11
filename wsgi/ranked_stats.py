@@ -1,5 +1,4 @@
 #!/usr/bin/python
-from __future__ import division
 import os
 import traceback
 import usage_stats
@@ -9,7 +8,6 @@ from flask import Flask
 from flask import request
 from flask import render_template
 from flask import redirect
-from flask import jsonify
 from collections import OrderedDict
 app = Flask(__name__, template_folder=os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates'))
 
