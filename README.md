@@ -1,3 +1,5 @@
+This repo is mainly for me to get used to Python and the Flask framework. Some of the code doesn't really have a purpose and just me playing with things.
+
 Running on OpenShift
 ----------------------------
 
