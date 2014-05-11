@@ -5,7 +5,7 @@ Create an account at https://www.openshift.com and follow the instructions on se
 
 Create a python application
 
-    rhc app create rankedstats python-2.7
+    rhc app create rankedstats python-2.7 (or python-3.3)
 
 Add this upstream rankedstats repo
 

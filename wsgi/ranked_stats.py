@@ -54,7 +54,7 @@ def app_route():
             
         return index(url1=request.form.get('url1'), url2=request.form.get('url2'), weighting=request.form.get('weighting'))
     except:
-        print traceback.format_exc()
+        print(traceback.format_exc())
 
 
 @app.errorhandler(404)
